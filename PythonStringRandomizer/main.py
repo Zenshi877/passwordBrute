@@ -17,7 +17,7 @@ newPassword = randomCode
 input("Do you want to bruteforce the password? ")
 
 # Brute force program
-data_list = '!@#$^&*£%/' + string.ascii_lowercase + string.digits
+data_list = '!@#$^&*£%/' + string.ascii_lowercase + string.ascii_uppercase + string.digits
 charData = list(data_list)
 
 brutePass = ""
